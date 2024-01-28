@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(23, 24, 71);
+}
+
+/* header is here  */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(48, 41, 94);
+    padding: 17px 0;
+}
+
+.header-text {
+    color: white;
+}
+
+.Geometry-Genius {
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.header-p {
+    letter-spacing: 2.5px;
+}
+
+.blog-btn {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(53, 53, 184);
+    padding: 9px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.blog-btn:hover {
+    background-color: blue;
+    transform: scale(1.03);
+}
+
+/*=================== main section is here  ===========================================*/
+.main-conaiter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+    gap: 20px;
+}
+
+/* geometry-calculetion-container */
+.geometry-calculetion-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 66%;
+}
+
+.card {
+    background-color: rgb(70, 45, 160);
+    width: 270px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 12px 0;
+    border-radius: 6px;
+    box-shadow: 0 0 14px -4px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.img-container {
+    width: 197px;
+    height: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 150px;
+}
+
+.card-h2 {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.card-p {
+    color: azure;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.edit-icon{
+    font-size: 19px;
+    cursor: pointer;
+
+}
+
+.cm {
+    font-size: 18px;
+    color: azure;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.field{
+    display: none;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.checkbox{
+    transform: scale(1.5);
+}
+
+.cm-field {
+    width: 42px;
+    padding: 4px 7px;
+}
+.result-value{
+    color: rgb(255, 238, 0);
+}
+
+.calculet-btn {
+    width: 110px;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(53, 53, 184);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* result section is here  */
+.geometry-result {
+    background-color: rgb(70, 45, 160);
+    align-self: flex-start;
+    width: 355px;
+    height: 450px;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 14px -4px;
+    transition: .3s;
+}
+
+.geometry-result:hover {
+    transform: scale(1.01);
+}
+
+.result-text {
+    margin: 20px 0 10px 0;
+    color: white;
+    text-align: center;
+}
+
+/* result-body------------ */
+.result-body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.result-box {
+    display: none;
+    background-color: rgb(14, 143, 10);
+    width: 90%;
+    padding: 12px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.result-box:hover{
+    transform: scale(1.01);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.result-p {
+    font-size: 17px;
+    font-weight: 600;
+    align-self: baseline;
+    color: white;
+}
+
+
+.result-btn {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    color: white;
+    padding: 8px 7px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(53, 53, 184);
+    transition: .6s;
+    cursor: pointer;
+}
+.result-btn:hover{
+    background-color: rgb(32, 32, 148);
+    transform: scale(1.03);
+
+}
+/* footer is start  */
+.footer-container{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 22px 0;
+margin-top: 65px;
+background-color: rgb(48, 41, 94);
+}
+.footer-list{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.item-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 4px;
+}
+.item{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(171, 170, 184);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.item:hover{
+    color: rgb(214, 213, 226);
+    text-decoration: underline rgb(109, 235, 6);
+    transform: scale(1.01);
+
+}
+.about-list{
+    margin-bottom: 16px;
+}
+.about-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}.footer-pera{
+    width: 330px;
+    margin-bottom: 12px;
+}
+.footer-p{
+color: rgb(113, 112, 128);
+letter-spacing: 4px;
+}

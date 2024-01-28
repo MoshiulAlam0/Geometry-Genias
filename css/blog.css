@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(23, 24, 71);
+}
+/* header section is here ------------- */
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(48, 41, 94);
+    padding: 17px 0;
+}
+
+.header-text {
+    color: white;
+}
+
+.blog {
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.header-p {
+    letter-spacing: 2.5px;
+}
+
+.home-btn {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(53, 53, 184);
+    padding: 9px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.home-btn:hover {
+    background-color: blue;
+    transform: scale(1.03);
+}
+
+/* main section is here  */
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(184, 177, 177);
+    margin: 26px 0;
+}
+.blog-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blog-container1{
+    width: 55%;
+    font-size: 15px;
+    line-height: 1.5rem;
+    
+}
+.blog-container2 img{
+width: 500px;
+}
+.qustion-h2{
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer is start  */
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 22px 0;
+    margin-top: 65px;
+    background-color: rgb(48, 41, 94);
+    }
+    .footer-list{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .item-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 4px;
+    }
+    .item{
+        font-size: 1rem;
+        font-weight: 700;
+        color: rgb(171, 170, 184);
+        letter-spacing: 1.5px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .item:hover{
+        color: rgb(214, 213, 226);
+        text-decoration: underline rgb(109, 235, 6);
+        transform: scale(1.01);
+    
+    }
+    .about-list{
+        margin-bottom: 16px;
+    }
+    .about-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+    }.footer-pera{
+        width: 330px;
+        margin-bottom: 12px;
+    }
+    .footer-p{
+    color: rgb(113, 112, 128);
+    letter-spacing: 4px;
+    }

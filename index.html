@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header is start here  -->
+    <header class="header">
+        <div class="header-text">
+            <h2 class="Geometry-Genius">INTERACTIVE</h2>
+            <p class="header-p">Geometry Genius</p>
+        </div>
+        <button class="blog-btn">Blog</button>
+    </header>
+    <!-- main section is here  -->
+    <main class="main-conaiter">
+        <div class="geometry-calculetion-container">
+            <div class="card">
+                <div class="img-container">
+                    <img class="img" src="img/triangle-png-16919.png" alt="">
+                </div>
+                <h2 class="card-h2">Triangle</h2>
+                <p class="card-p">Area(A) = 0.5 ✖ b ✖ h</p>
+                <p class="card-p">p = <span id="T-cm1">00</span>cm b = <span id="T-cm2">00</span>cm <i
+                        class="fa-solid fa-pen-to-square  edit-icon"></i></p>
+                <div class="field">
+                    <div class="input-field">
+                        <input id="triangle-field1" type="number" name="" id="" class="cm-field" placeholder="b">
+                        <p class="cm">cm</p>
+                        <input id="triangle-field2" type="number" name="" id="" class="cm-field" placeholder="h">
+                        <p class="cm">cm</p>
+                        <input class="checkbox" type="checkbox">
+                    </div>
+                </div>
+                <button id="triangle-btn" class="calculet-btn">Calculet</button>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img class="img" src="img/ractangle.png" alt="">
+                </div>
+                <h2 class="card-h2">Rectangle</h2>
+                <p class="card-p">Area(A) = w ✖ l</p>
+                <p class="card-p">p = <span id="R-cm1">00</span>cm b = <span id="R-cm2">00</span>cm <i
+                        class="fa-solid fa-pen-to-square  edit-icon"></i></p>
+                <div class="field">
+                    <div class="input-field">
+                        <input type="number" name="" id="ractangle-field1" class="cm-field" placeholder="w">
+                        <p class="cm">cm</p>
+                        <input type="number" name="" id="ractangle-field2" class="cm-field" placeholder="l">
+                        <p class="cm">cm</p>
+                        <input  class="checkbox" type="checkbox">
+                    </div>
+                </div>
+                <button id="ractangle-btn" class="calculet-btn">Calculet</button>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img class="img" src="img/parallogram.png" alt="">
+                </div>
+                <h2 class="card-h2">Parallogram</h2>
+                <p class="card-p">Area(A) = b ✖ h</p>
+                <p class="card-p">p = <span id="P-cm1">00</span>cm b = <span id="P-cm2">00</span>cm <i
+                        class="fa-solid fa-pen-to-square  edit-icon"></i></p>
+                <div class="field">
+                    <div class="input-field">
+                        <input type="number" name="" id="parallogram-field1" class="cm-field" placeholder="b">
+                        <p class="cm">cm</p>
+                        <input type="number" name="" id="parallogram-field2" class="cm-field" placeholder="h">
+                        <p class="cm">cm</p>
+                        <input class="checkbox" type="checkbox">
+                    </div>
+                </div>
+                <button id="parallogram-btn" class="calculet-btn">Calculet</button>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img class="img" src="img/rhombus.png" alt="">
+                </div>
+                <h2 class="card-h2">Rhombus</h2>
+                <p class="card-p">Area(A) = 0.5 ✖ d<sub>1</sub> ✖ d<sub>2</sub></p>
+                <p class="card-p">p = <span id="Rh-cm1">00</span>cm b = <span id="Rh-cm2">00</span>cm <i
+                        class="fa-solid fa-pen-to-square  edit-icon"></i></p>
+                <div class="field">
+                    <div class="input-field">
+                        <input type="number" name="" id="rhombus-field1" class="cm-field" placeholder="d">
+                        <p class="cm">cm</p>
+                        <input type="number" name="" id="rhombus-field2" class="cm-field" placeholder="d/2">
+                        <p class="cm">cm</p>
+                        <input class="checkbox" type="checkbox">
+                    </div>
+                </div>
+                <button id="rhombus-btn" class="calculet-btn">Calculet</button>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img class="img" src="img/pentagonrgb_p-removebg-preview.png" alt="">
+                </div>
+                <h2 class="card-h2">Pentagon</h2>
+                <p class="card-p">Area(A) = 0.5 ✖ p ✖ b</p>
+                <p class="card-p">p = <span id="Pe-cm1">00</span>cm b = <span id="Pe-cm2">00</span>cm <i
+                        class="fa-solid fa-pen-to-square  edit-icon"></i></p>
+                <div class="field">
+                    <div class="input-field">
+                        <input type="number" name="" id="pentagon-field1" class="cm-field" placeholder="p">
+                        <p class="cm">cm</p>
+                        <input type="number" name="" id="pentagon-field2" class="cm-field" placeholder="b">
+                        <p class="cm">cm</p>
+                        <input class="checkbox" type="checkbox">
+                    </div>
+                </div>
+                <button id="pentagon-btn" class="calculet-btn">Calculet</button>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img class="img" src="img/ellipes.png" alt="">
+                </div>
+                <h2 class="card-h2">Ellipes</h2>
+                <p class="card-p">Area(A) = 兀ab</p>
+                <p class="card-p">p = <span id="E-cm1">00</span>cm b = <span id="E-cm2">00</span>cm <i
+                        class="fa-solid fa-pen-to-square  edit-icon"></i></p>
+                <div class="field">
+                    <div class="input-field">
+                        <input type="number" name="" id="ellipes-field1" class="cm-field" placeholder="a">
+                        <p class="cm">cm</p>
+                        <input type="number" name="" id="ellipes-field2" class="cm-field" placeholder="b">
+                        <p class="cm">cm</p>
+                        <input class="checkbox" type="checkbox">
+                    </div>
+                </div>
+                <button id="ellipes-btn" class="calculet-btn">Calculet</button>
+            </div>
+        </div>
+        <!-- result section  -->
+        <div class="geometry-result">
+            <h2 class="result-text">Aria Calculetor</h2>
+            <hr>
+            <div class="result-body">
+                <div id="result-box-1" class="result-box">
+                    <div class="box">
+                        <p class="result-p">1.Triangle</p>
+                        <p class="result-p"><span id="triangle-cm-result" class="result-value">00</span> cm<sup>2</sup>
+                        </p>
+                        <button id="triangle-convert-btn" class="result-btn">Convert</button>
+                        <p class="result-p"><span id="triangle-m-result" class="result-value">00</span> m<sup>2</sup>
+
+                        </p>
+                    </div>
+                </div>
+                <div id="result-box-2" class="result-box">
+                    <div class="box">
+                        <p class="result-p">2.Rectangle</p>
+                        <p class="result-p"><span id="rectangle-cm-result" class="result-value">00</span> cm<sup>2</sup>
+                        </p>
+                        <button id="rectangle-convert-btn" class="result-btn">Convert</button>
+                        <p class="result-p"><span id="rectangle-m-result" class="result-value">00</span> m<sup>2</sup>
+                        </p>
+
+                    </div>
+                </div>
+                <div id="result-box-3" class="result-box">
+                    <div class="box">
+                        <p class="result-p">3.Parallogram</p>
+                        <p class="result-p"><span id="parallogram-cm-result" class="result-value">00
+                            </span>cm<sup>2</sup></p>
+                        <button id="parallogram-convert-btn" class="result-btn">Convert</button>
+                        <p class="result-p"><span id="parallogram-m-result" class="result-value">00</span> m<sup>2</sup>
+                        </p>
+
+                    </div>
+                </div>
+                <div id="result-box-4" class="result-box">
+                    <div class="box">
+                        <p class="result-p">4.Rhombus</p>
+                        <p class="result-p"><span id="rhombus-cm-result" class="result-value">00
+                            </span> cm<sup>2</sup></p>
+                        <button id="rhombus-covert-btn" class="result-btn">Convert</button>
+                        <p class="result-p"><span id="rhombus-m-result" class="result-value">00</span> m<sup>2</sup></p>
+
+                    </div>
+                </div>
+                <div id="result-box-5" class="result-box">
+                    <div class="box">
+                        <p class="result-p">5.Pentagon</p>
+                        <p class="result-p"><span id="pentagon-cm-result" class="result-value">00
+                            </span> cm<sup>2</sup></p>
+                        <button id="pentagon-covert-btn" class="result-btn">Convert</button>
+                        <p class="result-p"><span id="pentagon-m-result" class="result-value">00</span> m<sup>2</sup>
+                        </p>
+
+                    </div>
+                </div>
+                <div id="result-box-6" class="result-box">
+                    <div class="box">
+                        <p class="result-p">7.Ellipes</p>
+                        <p class="result-p"><span id="ellipes-cm-result" class="result-value">00
+                            </span> cm<sup>2</sup></p>
+                        <button id="ellipes-covert-btn" class="result-btn">Convert</button>
+                        <p class="result-p"><span id="ellipes-m-result" class="result-value">00</span> m<sup>2</sup></p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- footer is here  -->
+    <footer class="footer-container">
+        <div class="footer-list">
+            <ul class="item-list">
+                <li class="item">Geometre</li>
+                <li class="item">Math</li>
+                <li class="item">Pithgoras</li>
+                <li class="item">Chemisry</li>
+                <li class="item">Baiology</li>
+            </ul>
+        </div>
+        <div class="about">
+            <ul class="about-list">
+                <li class="about-text item">About!</li>
+                <li class="about-text item">Contact!</li>
+                <li class="about-text item">More Blog!</li>
+            </ul>
+            <div class="footer-pera">
+                <p class="footer-p">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="footer-p">Lorem ipsum dolor sit amet consectetur hello lorem helone.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- scricts are here ----- -->
+    <script src="js/Commoun-function.js"></script>
+    <script src="js/setcm.js"></script>
+    <script src="js/calculete.js"></script>
+    <script src="js/random-color.js"></script>
+    <script src="js/edit.js"></script>
+</body>
+
+</html>

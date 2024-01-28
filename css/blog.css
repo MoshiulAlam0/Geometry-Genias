@@ -50,7 +50,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: rgb(184, 177, 177);
     margin: 26px 0;
 }
 .blog-container{
@@ -70,8 +69,36 @@ body {
 .blog-container2 img{
 width: 500px;
 }
-.qustion-h2{
+.qus-h2{
     margin-top: 12px;
+    font-size: 1.5rem;
+    letter-spacing: 1.3px;
+    color: rgb(221, 207, 207);
+    text-align: center;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgb(32, 150, 218);
+}
+.ul{
+    list-style: none;
+    line-height: 1.7rem;
+}
+.qus{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(5, 189, 14);
+    letter-spacing: 1px;
+}
+.ans{
+    color: rgb(228, 225, 220);
+    letter-spacing: .9px;
+}
+.ans-span{
+    font-weight: bold;
+    color: rgb(210, 192, 30);
+}
+.roman-num{
+    color: goldenrod;
 }
 
 
